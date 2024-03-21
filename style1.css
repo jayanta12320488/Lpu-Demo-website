@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.lpu_logo
+{
+    height: 70px;
+    
+}
+.banner-section-bg-container{
+    background-image: url('https://images.collegedunia.com/public/college_data/images/campusimage/1586168055Untitled.png');
+    height: 100vh;
+    background-size: cover;
+}
+.nav-links ::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links :hover::after{
+    width:100%;
+}
+.text-box{
+    font-style: italic;
+
+}
+.text-box-h1{
+    font-size: 62px;
+}
+.text-box-p{
+    font-size: 19px;
+    color: azure;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+.hero-btn:hover{
+    border: 1px solid #fff3f3;
+    background: #fff3f3;
+    transition: 1s;
+}
+                                  /---- placements ----/
+
+
+.placement{
+     width: 80%;
+     margin: auto;
+     padding-top: 100px;
+     text-align: center;
+}
+.placement-h1{
+    color:rgb(106, 114, 130);
+    font-size: 36px;
+    font-weight: 600;
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.placement-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.placement-h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0;
+}
+.placement-img{
+    height: 120px;
+    border-radius: 10px;
+}
+.placement-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+                       /---- careers ---/
+.careers{
+    background-color: #fff3f3;
+    margin: auto;
+padding-top: 100px;
+text-align: center;
+}
+.careers img{
+    height: 100px;
+
+}
+.careers-h1{
+    font-style:unset;
+    color:rgb(106, 114, 130);
+    font-size: 36px;
+    font-weight: 600;
+}
+.careers-button{
+    width:auto;
+    padding: 5px;
+    border: 1px solid #585353;
+    border-radius: 9px;
+    background-color: peru;
+    color:white;
+}
+.careers-button:hover{
+    box-shadow: 0 0 20px 0px rgba(18, 19, 19, 0.2);
+}
+.careers-col{
+    flex-basis: 15%;
+    background: #fff3f3;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-top: 4%;
+    margin-left: 3%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border-style:groove;
+}
+.careers-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+                              /---- facilities ---/
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+.facilities-col{
+    flex-basis:31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+.facilities-col p{
+    font-size: 19px;
+    padding: 0;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+                    /---- testimonials ---/
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.testimonials-col{
+    flex-basis: 35%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.testimonials-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.testimonials-col p{
+    font-size: 19px;
+    padding: 0;
+}
+.testimonials-col h3{
+    margin-bottom: 15px;
+    text-align: left;
+}
+.testimonials-col svg{
+    color:#f44336 ;
+}
+@media (max-width: 700px) {
+    .testimonials-col img{
+        margin-left: 0px;
+        margin-right: 15px;
+        
+    }
+}
+                       /---- Call to Action ---/
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://images.shiksha.com/mediadata/images/articles/1611356666php2vKXks.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+                    /----Footer ---/
+.footer{
+     width: 100%;
+     text-align: center;
+     padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons {
+    height: 100px;
+    color:#f44336; 
+    cursor: pointer;
+    padding: 18px 0;
+}
